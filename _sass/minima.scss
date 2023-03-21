@@ -51,12 +51,20 @@ $on-laptop:        800px !default;
 ;
 
 .portrait {
-  background-image: url(/assets/images/berit-selin.png);
+  display: block;
   height: 262px;
   width: 200px;
-  background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat;
   border-radius: 100%;
   margin: 2em auto;
+}
+
+.songbook {
+  width: 200px;
+  margin-left: 2em;
+  margin-bottom: 2em;
+  float: right;
+}
+
+h2 {
+  clear: both;
 }
